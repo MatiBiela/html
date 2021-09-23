@@ -1,0 +1,17 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: blueviolet;
+    }
+    
+    .logo { grid-area: 1 / 1 / 2 / 5; }
+    .menu { grid-area: 2 / 1 / 6 / 2; }
+    .kalendarz { grid-area: 2 / 4 / 4 / 5; }
+    .godzina { grid-area: 4 / 4 / 6 / 5; }
+    .footer { grid-area: 6 / 1 / 7 / 5; }
+    .main { grid-area: 2 / 2 / 6 / 4; }
